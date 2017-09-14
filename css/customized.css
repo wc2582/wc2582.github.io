@@ -1,0 +1,13 @@
+.address-time{
+float: right;
+}
+.cv-titles{
+font-weight: bold;
+font-size:120%;
+}
+hr{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+

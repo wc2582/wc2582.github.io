@@ -29,10 +29,16 @@
     <!-- my added css -->
     <link href="css/customized.css" rel="stylesheet">
 
+    <!--Slick-->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
 
   </head>
 
   <body id="page-top">
+
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -73,7 +79,14 @@
         <div class="container">
 		<div class="col-lg-2 mx-auto text-center"></div>
           <div class="col-lg-8 mx-auto text-center">
-            <img class="img-fluid" src="img/joy.png" alt="">
+
+            <div class="your-class">
+              <div><img class="img-fluid" src="img/joy/mountain.jpg" alt=""></div>
+              <div><img class="img-fluid" src="img/joy/boston.jpg" alt=""></div>
+              <div><img class="img-fluid" src="img/joy/super_joy.jpg" alt=""></div>
+            </div>
+
+
             <div class="intro-text">
               <hr class="star-light">
 	      <span class="skills">Student - <big>Programmer</big> - Traveller </span>
@@ -276,7 +289,7 @@ JSON object and pushed to Amazon Elasticsearch</li>
 		  <a href="mailto:wc2582@columbia.edu"><img src="img/email.ico" alt=""></a>
           </div>
           <div class="col-sm-2">
-		  <a href="https://www.linkedin.com/in/weihe-joy-chen-62b8b693/" target="_blank"><img src="img/linkedin.png" alt=""></a>
+		  <a href="https://www.linkedin.com/in/wc2582/" target="_blank"><img src="img/linkedin.png" alt=""></a>
           </div>
           <div class="col-sm-2">
 		  <a href="https://www.facebook.com/weihe.chen.33" target="_blank"><img src="img/facebook.png" alt=""></a>
@@ -583,6 +596,17 @@ JSON object and pushed to Amazon Elasticsearch</li>
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
     <script src="js/customized.js"></script>
+
+    <!--Slick-->
+    <script type="text/javascript" src="jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.your-class').slick();
+
+      });
+    </script>
 
   </body>
 
